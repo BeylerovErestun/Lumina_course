@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HomeModal {
+    color: black;
+}
+
+.aboutModal {
+    color: black;
+}
+
+.ContactMadal {
+    color: black;
+}
+
+.X {
+    cursor: pointer;
+}
+
+.modalBars {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.241);
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: start;
+    padding: 40px;
+}
+
+.modalBars .conta {
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    gap: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.modalBars .conta .X {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.mySwiper2 {
+    margin-top: 100px;
+}
+
+.fa-bars {
+    cursor: pointer;
+    font-size: 35px;
+    display: none !important;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px;
+    z-index: 10000;
+}
+
+.header a .imgBox {
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.header a .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.mySwiper2 {
+    width: 80%;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 95vh;
+}
+
+.mySwiper2 .swiper-slide {
+    padding: 0px 10px 50px 10px;
+}
+
+.swiper-slide {
+    margin-top: 90px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+
+.mySwiper2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content !important;
+    cursor: pointer;
+}
+
+.mySwiper2 .swiper-slide img {
+    display: flex;
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-color {
+    height: 100%;
+    width: 100%;
+}
+
+.arrowLeft {
+    transform: rotate(180deg);
+    z-index: 10;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: black !important;
+}
+
+.swiper-button-prev {
+    left: 100px !important;
+    right: auto;
+}
+
+.swiper-button-next {
+    right: 100px !important;
+}
+
+.swiper-pagination-bullet-active {
+    color: white !important;
+    background-color: white !important;
+}
+
+.imgBoxvecto1 {
+    position: absolute;
+    z-index: -1;
+    top: -50px;
+    right: 80px;
+}
+
+
+
+.loginCenterBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.fa-arrow-up {
+    position: fixed;
+    font-size: 50px;
+    bottom: 60px;
+    right: 28px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.fa-arrow-up:hover {
+    color: #61be05;
+}
+
+.loginImgBox {
+    height: 260px;
+    width: 320px;
+}
+
+.loginImgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 1px !important;
+}
+
+main #təlimçilər {
+    height: 100vh;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+main #telimciler .telimciBox {
+    width: 284px;
+    display: flex;
+    flex-direction: column;
+}
+
+main #telimciler .telimciBox .imgBox {
+    position: relative;
+    height: 290px;
+}
+
+main #telimciler .telimciBox .imgBox img {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+main #telimciler .telimciBox .textBox {
+    background-color: purple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+
+#metin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+}
+
+#metin .conta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#metin .conta button {
+    width: 160px;
+    border: none;
+    background-color: rgb(106, 255, 47);
+    border: 1px solid;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#metin .conta button:hover {
+    background-color: rgb(71, 173, 31);
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+}
+
+.modalBars .conta .ImgBox {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+}
+
+.modalImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@keyframes rotating {
+    from {
+        -ms-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+
+    to {
+        -ms-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+
+.fa-language {
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 608px) {
+
+    .swiper-button-prev {
+        left: 20px !important;
+        right: auto;
+    }
+
+    .swiper-button-next {
+        right: 0px !important;
+    }
+
+    .arrowLeft {
+        height: 40px;
+    }
+
+    .arrowRight {
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .text {
+        display: none;
+    }
+
+    .fa-bars {
+        display: flex !important;
+    }
+}
